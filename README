@@ -1,0 +1,12 @@
+#STop_Ntuple code for running over sussex stop 0L ntuples
+
+Just a Simple adapted MakeClass
+
+compile by 
+>make
+
+run by
+./runStopDiag0L -i input.txt -o output.root -e event_display.eps 
+
+where input.txt is a text file with a list of .root inputs
+event_display.eps is a postscript file that displays the jet/met in ad-hoc "event displays" of the first 200 events
